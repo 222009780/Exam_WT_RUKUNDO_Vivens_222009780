@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-----RUKUNDO VIVENS 222009780---->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment</title>
+    <link rel="stylesheet" href="css/style3.css">
+<body>
+    <div class="container">
+        <h2>Welcome to our Website</h2>
+        <p>Welcome To Stidio - payment Available!</p>
+        <form action="payment.php" method="POST">
+            <table>
+                <tr>
+                    <td>Order_id:</td>
+                    <td><input type="number" name="order_id" id="order_id" oninput="validate()"></td>
+                    <td><div id="errororder_id"></div></td>
+                </tr>
+                 <tr>
+                    <td>payment_method:</td>
+                    <td>
+                        <select name="payment_method" id="payment_method" onchange="validate()">
+                            <option value="">Select payment_method</option>
+                            <option value="Mobilephone">Mobile phone</option>
+                            <option value="bank">Bank</option>
+                            <option value="CreditCard">Credit Card</option>
+                        </select>
+                    </td>
+                    <td><div id="errorpayment"></div></td>
+                </tr>
+               <tr>
+                    <td>payment_date:</td>
+                    <td><input type="date" name="payment_date" id="payment_date" oninput="validate()"></td>
+                    <td><div id="errorpayment_date"></div></td>
+                </tr>
+                 <tr>
+                    <td>Amaunt:</td>
+                       <td><input type="text" name="payment_amount" id="payment_amount" oninput="validate()"></td>
+                    </td>
+                    <td><div id="erroramount"></div></td></tr>
+                     <tr>
+                    <td>Payment_status:</td>
+                    <td>
+                        <select name="payment_status" id="payment_status" onchange="validate()">
+                            <option value="">Select payment_status</option>
+                            <option value="paid">paid</option>
+                            <option value="not_paid">not paid</option>
+                        </select>
+                    </td>
+                    <td><div id="errorpayment"></div></td>
+                </tr>
+                <tr>
+                    <td><a href="landingpayment.php" class="btn btn-success">ACTION</a></td>
+                    <td></td>
+
+                    <td><input type="submit" value="insert" class="btn"></td>
+    
+                        <td><div id="errorFinal"></div></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
+
+    </main>
+    <footer>
+        <p>&copy; 2024 virtual_interior_design_studio. All rights reserved.</p>
+        <div class="social-media">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+            <a href="#">Linkedin</a>
+        </div>
+    </footer>
+</body>
+</html>

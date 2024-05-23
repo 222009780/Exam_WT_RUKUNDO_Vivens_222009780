@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-----RUKUNDO VIVENS 222009780---->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+           <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="studio.html">Studio</a></li>
+                <li><a href="contact.html" class="active">Contacts</a></li>
+                <li><a href="about.html">About</a></li>
+             <div class="dropdown">
+            <a href="#" class="dropbtn">setting</a>
+    
+                                        <div class="dropdown-content">
+                                            <a  href="index.html">Login</a>
+                                            <a c href="signup.html">Create Account</a>
+                                        </di>
+                                    </div>
+                                </div></ul>
+        </nav>
+    </header>
+
+    <main class="services">
+        <section class="service-cards">
+            <div class="service-card">
+                <img src="images/slider-img05.png" alt="Service 1">
+                <h2>Service 1</h2>
+                <button onclick="expandCard(this)">Learn More</button>
+                <div class="expanded-content">
+                    <p>Description of Service of moodboard</p>
+                    <p>Price: $80</p>
+                    <button onclick="redirectToStudio()">Get Started</button>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <img src="images/slider-img04.png" alt="Service 1">
+                <h2>Service 2</h2>
+                <button onclick="expandCard(this)">Learn More</button>
+                <div class="expanded-content">
+                    <p>Description of Service in furnature</p>
+                    <p>Price: $40</p>
+                    <button onclick="redirectToStudio()">Get Started</button>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <img src="images/slider-img03.png" alt="Service 1">
+                <h2>Service 3</h2>
+                <button onclick="expandCard(this)">Learn More</button>
+                <div class="expanded-content">
+                    <p>Description of Service Room</p>
+                    <p>Price: $20</p>
+                    <button onclick="redirectToStudio()">Get Started</button>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <img src="images/Rectangle-5419.png" alt="Service 1">
+                <h2>Service 4</h2>
+                <button onclick="expandCard(this)">Learn More</button>
+                <div class="expanded-content">
+                    <p>Description of Service of Interior</p>
+                    <p>Price: $50</p>
+                    <button onclick="redirectToStudio()">Get Started</button>
+                </div>
+            </div>
+
+            <!-- Repeat the above structure for other services -->
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-nav">
+                <h3>Main Pages</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#studio">Studio</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="#interior-design">Interior Design</a></li>
+                    <li><a href="#3d-rendering">3D Rendering</a></li>
+                    <li><a href="#furniture">Custom Furniture</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p>Email: info@gamil.com</p>
+                <p>Phone: +250784567890</p>
+                <p>Address: 250 Kigali, Rwanda, City, Country</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

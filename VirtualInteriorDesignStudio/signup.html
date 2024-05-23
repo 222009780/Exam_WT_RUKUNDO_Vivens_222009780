@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="css/style3.css">
+    <script type="text/javascript" src="javascript/signup.js"></script>
+</head>
+<body>
+        <header>
+              <h1><img src="images/icon.jpg" alt="icon">onlinecoaching</h1>
+    </header>
+    <main>
+    <div class="container">
+        <h2>Create Account</h2>
+        <form action="signup.php" method="POST">
+            <table id="table1">
+                <tr>
+                    <td>Username:</td>
+                    <td><input type="text" name="username" id="username" oninput="validate()"></td>
+                    <td><div id="errorUsername"></div></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="email" name="email" id="email" oninput="validate()"></td>
+                    <td><div id="errorEmail"></div></td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td><input type="password" name="password" id="password" oninput="validate()"></td>
+                    <td><div id="errorPassword"></div></td>
+                </tr>
+                
+                
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="Create Account" class="btn"></td>
+                        <td><div id="errorFinal"></div></td>
+                </tr></table></form>
+       <div class="create-account">
+            <p>Already have an account? <a href="login.html">Sign In</a></p>
+        </div>
+    </div>
+</main>
+</body>
+</html>

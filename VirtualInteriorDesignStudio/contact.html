@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="studio.html">Studio</a></li>
+                <li><a href="contact.html" class="active">Contacts</a></li>
+                <li><a href="about.html">About</a></li>
+             <div class="dropdown">
+            <a href="#" class="dropbtn">setting</a>
+    
+                                        <div class="dropdown-content">
+                                            <a  href="index.html">Login</a>
+                                            <a c href="signup.html">Create Account</a>
+                                        </di>
+                                    </div>
+                                </div></ul>
+
+        </nav>
+    </header>
+
+    <main class="contacts">
+        <section class="contact-info">
+            <div class="contact-address">
+                <h2>Address</h2>
+                <p>250  Kigali_Rwanda,</p>
+                <p>City, Country</p>
+            </div>
+            <div class="contact-phone">
+                <h2>Phone Numbers</h2>
+                <p>+250784567890</p>
+                <p>+250787654321</p>
+            </div>
+            <div class="contact-email">
+                <h2>Emails</h2>
+                <p>rukundo@gmail.com</p>
+                <p>vrukundo@gmail.com</p>
+            </div>
+        </section>
+
+        <section class="team-members">
+            <h2>Our Team</h2>
+            <div class="team-member-card">
+                <img src="images/team/Vivens.jpg" alt="Team Member 1">
+                <h3>John MUGABO</h3>
+                <p>Interior Designer</p>
+                <p>Email: john@gmail.com</p>
+                <p>Phone: +2504567890</p>
+            </div>
+            <div class="team-member-card">
+                <img src="images/team/Valer.png" alt="Team Member 2">
+                <h3>Jane MUTESI</h3>
+                <p>3D Artist</p>
+                <p>Email: jane@gmail.com</p>
+                <p>Phone: +25078654321</p>
+            </div>
+            <!-- Add more team member cards as needed -->
+        </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+            <div class="footer-nav">
+                <h3>Main Pages</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#studio">Studio</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="#interior-design">Interior Design</a></li>
+                    <li><a href="#3d-rendering">3D Rendering</a></li>
+                    <li><a href="#furniture">Custom Furniture</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p>Email: info@gmail.com</p>
+                <p>Phone: +250784567890</p>
+                <p>Address: 250 Kigali_Rwanda, City, Country</p>
+            </div>
+               <section class="contact-section">
+            <div class="container">
+                <h1>Contact Us</h1>
+                <p>Have questions or feedback? Feel free to get in touch with us!</p>
+                <form action="mess.php" method="POST">
+                    <div class="form-group">
+                        <label for="user_id">user_id:</label>
+                        <input type="number" id="user_id" name="user_id" required>
+                    </div>
+                     <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject:</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
