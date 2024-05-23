@@ -1,0 +1,77 @@
+   body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            background-image: url('web/images/icon2.JPG'); /* Add this line */
+            background-size: cover; /* Optional: Adjusts the background image to cover the entire container */
+            background-position: center;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+    
+
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 15px;
+            background-color: none;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            margin-top: 100px;
+            text-align: center;
+        }
+        
+        h2 {
+            margin-bottom: 20px;
+        }
+        
+        .btn {
+            padding: 8px 10px;
+            border: none;
+            background-color: #2570d2;
+            color: #fff;
+            text-transform: uppercase;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+        
+        .btn:hover {
+            background-color: #0056b3;
+        }
+
+        
+        footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed; /* or position: absolute; */
+    bottom: 0;
+    width: 100%; /* Ensure it spans the entire width */
+}
+
+
+.social-media {
+    margin-top: 10px;
+}
+
+.social-media a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
